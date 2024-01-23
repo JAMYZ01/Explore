@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-family: Speedee,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif;
+}
+.gds-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.list-items ul{
+    display: flex;
+}
+.list-items li{
+    justify-self: center;
+    margin: 20px 15px;
+}
+.gdshome{
+    background-image: url(gds-img/asia-img\ 1.jpeg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gdshome p{
+    text-align: center;
+    padding: 250px 0px 10px 0px;
+    color: rgb(48, 45, 45);
+    font-size: 20px;
+    font-weight: 500;
+}
+.africa-secOne{
+    display: flex;
+    padding-bottom: 50px;
+}
+.africa-secOnea{
+    text-align: center;
+    margin: 60px;
+}
+.aboutafrica img{
+    height: 120%;
+}
+.africa-secOne h1{
+    color: rgb(12, 64, 47);
+    text-align:center;
+    margin-bottom: 5px;
+}
+.africa-secTwo{
+    margin-top: 30px;
+}
+.africa-secTwo h1{
+    margin: 50px 0px 15px;
+    text-align: center;
+    color: rgb(12, 64, 47);
+}
+.africa-secTwo p{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.africa-secThree{
+    display: flex;
+    
+}
+.africa-secThree img{
+    height: 380px;
+    margin: 10px 20px 5px 20px;
+
+}
+.africa-secThree p{
+    text-align: center;
+}
+
+.footer{
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(195, 234, 234);
+}
+.footer p{
+    font-size: 15px;
+}
+
+.asia-intro h1{
+    color: rgb(12, 64, 47);
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+.asiaSec-one{
+    display: flex;
+    margin: 0px 30px 30px 30px;
+
+    
+}
+.asecOne-img{
+    max-width: auto;
+    object-fit: contain;
+       
+}
+.asecOne-text{
+    text-align: center;
+    font-size: 15px;
+}
+.gdskenya{
+    background-image: url(gds-img/kenya-img1.jpeg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gdskenya{
+    text-align: center;
+    padding: 250px 0px 10px 0px;
+    color: rgb(48, 45, 45);
+    font-size: 20px;
+    font-weight: 500;
+}
+.gdsnaija{
+    background-image: url(gds-img/naija-imgone.jpeg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.gdsnaija p{
+    text-align: center;
+    padding: 250px 0px 10px 0px;
+    color: rgb(242, 8, 8);
+    font-size: 30px;
+    font-weight: 500;
+}
